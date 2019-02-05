@@ -38,7 +38,7 @@ namespace SolveArrays.Tests
             var arraySolver = new ArraySolver();
 
             // Act
-            int actual = arraySolver.numbers(numbers);
+            int actual = arraySolver.SumEvens(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
